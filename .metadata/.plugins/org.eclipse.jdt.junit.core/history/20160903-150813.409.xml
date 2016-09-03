@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="example" project="example" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="example.ListsSuite" time="0.044">
+    <testcase name="one plus one is two" classname="example.ListsSuite" time="0.012"/>
+    <testcase name="one plus one is three?" classname="example.ListsSuite" time="0.009">
+      <error>org.scalatest.exceptions.TestFailedException&#13;
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:500)&#13;
+	at org.scalatest.FunSuite.newAssertionFailedException(FunSuite.scala:1555)&#13;
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:466)&#13;
+	at example.ListsSuite$$anonfun$2.apply$mcV$sp(ListsSuite.scala:50)&#13;
+	at example.ListsSuite$$anonfun$2.apply(ListsSuite.scala:50)&#13;
+	at example.ListsSuite$$anonfun$2.apply(ListsSuite.scala:50)&#13;
+	at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)&#13;
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)&#13;
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)&#13;
+	at org.scalatest.Transformer.apply(Transformer.scala:22)&#13;
+	at org.scalatest.Transformer.apply(Transformer.scala:20)&#13;
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)&#13;
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1122)&#13;
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1555)&#13;
+	at org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:163)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)&#13;
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)&#13;
+	at org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:175)&#13;
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1555)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)&#13;
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)&#13;
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)&#13;
+	at scala.collection.immutable.List.foreach(List.scala:381)&#13;
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)&#13;
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:396)&#13;
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:483)&#13;
+	at org.scalatest.FunSuiteLike$class.runTests(FunSuiteLike.scala:208)&#13;
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1555)&#13;
+	at org.scalatest.Suite$class.run(Suite.scala:1424)&#13;
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1555)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:212)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:212)&#13;
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:545)&#13;
+	at org.scalatest.FunSuiteLike$class.run(FunSuiteLike.scala:212)&#13;
+	at org.scalatest.FunSuite.run(FunSuite.scala:1555)&#13;
+	at org.scalatest.junit.JUnitRunner.run(JUnitRunner.scala:99)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="details why one plus one is not three" classname="example.ListsSuite" time="0.013">
+      <error>org.scalatest.exceptions.TestFailedException: 2 did not equal 3&#13;
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:500)&#13;
+	at org.scalatest.FunSuite.newAssertionFailedException(FunSuite.scala:1555)&#13;
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:466)&#13;
+	at example.ListsSuite$$anonfun$3.apply$mcV$sp(ListsSuite.scala:75)&#13;
+	at example.ListsSuite$$anonfun$3.apply(ListsSuite.scala:75)&#13;
+	at example.ListsSuite$$anonfun$3.apply(ListsSuite.scala:75)&#13;
+	at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)&#13;
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)&#13;
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)&#13;
+	at org.scalatest.Transformer.apply(Transformer.scala:22)&#13;
+	at org.scalatest.Transformer.apply(Transformer.scala:20)&#13;
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)&#13;
+	at org.scalatest.Suite$class.withFixture(Suite.scala:1122)&#13;
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1555)&#13;
+	at org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:163)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)&#13;
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)&#13;
+	at org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:175)&#13;
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1555)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)&#13;
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)&#13;
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)&#13;
+	at scala.collection.immutable.List.foreach(List.scala:381)&#13;
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)&#13;
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:396)&#13;
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:483)&#13;
+	at org.scalatest.FunSuiteLike$class.runTests(FunSuiteLike.scala:208)&#13;
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1555)&#13;
+	at org.scalatest.Suite$class.run(Suite.scala:1424)&#13;
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1555)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:212)&#13;
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:212)&#13;
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:545)&#13;
+	at org.scalatest.FunSuiteLike$class.run(FunSuiteLike.scala:212)&#13;
+	at org.scalatest.FunSuite.run(FunSuite.scala:1555)&#13;
+	at org.scalatest.junit.JUnitRunner.run(JUnitRunner.scala:99)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="intNotZero throws an exception if its argument is 0" classname="example.ListsSuite" time="0.002"/>
+    <testcase name="sum of a few numbers" classname="example.ListsSuite" time="0.001"/>
+    <testcase name="max of a few numbers" classname="example.ListsSuite" time="0.006"/>
+  </testsuite>
+</testrun>
