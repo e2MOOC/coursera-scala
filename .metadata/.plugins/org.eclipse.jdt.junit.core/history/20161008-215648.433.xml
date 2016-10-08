@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AnagramsSuite" project="forcomp" tests="11" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="forcomp.AnagramsSuite" incomplete="true">
+    <testcase name="wordOccurrences: abcd" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="wordOccurrences: Robert" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="sentenceOccurrences: abcd e" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="dictionaryByOccurrences.get: eat" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="word anagrams: married" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="word anagrams: player" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="subtract: lard - r" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="combinations: []" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="combinations: abba" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="sentence anagrams: []" classname="forcomp.AnagramsSuite" incomplete="true"/>
+    <testcase name="sentence anagrams: Linux rulez" classname="forcomp.AnagramsSuite" incomplete="true"/>
+  </testsuite>
+</testrun>
